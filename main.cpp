@@ -22,19 +22,20 @@ int main(int argc, char**argv)
 		else if( strcmp("GROUP",argv[1]) == 0)
 			peerList = parser.parseFile(argv[2], false);
 		else
+		{
+			cout<<"No such option exists: "<<argv[1]<<endl;
 			return 0;
+		}
 
 		for(int i = 4; i < argc; i++)
-			drawWithHightNode( argv[i],peerList,i-2);
-	
+		{
+			Drawer drawer;
+			drawer.colorNodes( argv[i],peerList,i-2);
+		}	
+
 		GraphPrinter printer;
 		printer.printGraph(peerList, argv[3]);
 	}
 	return 0;
 }
 
-void drawWithHightNode(char *name, PeerList *peerList, int type)
-{
-	Drawer drawer;
-	drawer.colorNodes(name,peerList,type);
-}
