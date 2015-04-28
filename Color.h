@@ -4,7 +4,7 @@ class PeerList;
 
 struct Color
 {
-	enum Value{white = 0,nat,red,purple,blue,brown,orange,violet,cyan,seagreen,lawngreen,springgreen,cornflowerblue,magenta,darkgoldenrod,chololate,gold,tomato,deeppink,orangered,darkolivegreen,indianred,lightpink};
+	enum Value{white = 0,nat,red,purple,blue,brown,orange,violet,cyan,seagreen,lawngreen,springgreen,cornflowerblue,magenta,darkgoldenrod,chocolate,gold,tomato,deeppink,orangered,darkolivegreen,indianred,lightpink,powderblue,teal};
 	const static char * toString(int value)
 	{
 		switch (value)
@@ -30,7 +30,7 @@ struct Color
 			case cyan:
 				return "cyan";
 			case lawngreen:
-				return "lawgreen";
+				return "lawngreen";
 			case springgreen:
 				return "springgreen";
 			case cornflowerblue: 
@@ -39,8 +39,8 @@ struct Color
 				return "magenta";
 			case darkgoldenrod: 
 				return "darkgoldenrod";
-			case chololate:
-				return  "chololate";
+			case chocolate:
+				return  "chocolate";
 			case  gold:
 				return "gold";
 			case tomato:
@@ -55,6 +55,10 @@ struct Color
 				return "indianred";
 			case lightpink:
 				return "lightpink";
+			case powderblue:
+				return "powderblue";
+			case  teal:
+				return "teal";
 			default:
 				return "white";
 		}
