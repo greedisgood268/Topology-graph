@@ -36,6 +36,8 @@ int main(int argc, char**argv)
 		GraphPrinter printer;
 		printer.printGraph(peerList, argv[3]);
 	}
+	else
+		cout<<"Wrong command usage"<<endl;
 	return 0;
 }
 
