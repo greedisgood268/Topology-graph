@@ -9,6 +9,9 @@ const int Max_Line_Length = 256;
 
 void Drawer::colorNodes(char *name,PeerList* peerList,int colorType)
 {
+	if( peerList == NULL)
+		return;
+
 	FILE *fp = fopen(name,"r");
 	if(fp == NULL)
 		return;
