@@ -8,8 +8,9 @@ struct Color
 			springgreen,cornflowerblue,magenta,darkgoldenrod,chocolate,gold,tomato,deeppink,\
 			orangered,darkolivegreen,indianred,lightpink,powderblue,peru,red,blueviolet,darkgreen,\
 			darkorange,darkslateblue,firebrick,ghostwhite,indigo,lightsalmon,lightsteelblue,mediumpurple,\
-			mediumvioletred,navajowhite,paleturquoise,pink,steelblue,darkmagenta,darksalmon,\
-			darkturquoise,dimgrey,fuchsia,hotpink,lightcoral,limegreen,mediumblue,olive};
+			mediumvioletred,navajowhite,paleturquoise,pink,steelblue,darksalmon,\
+			darkturquoise,dimgrey,hotpink,lightcoral,limegreen,mediumblue,mediumspringgreen,lightcyan,\
+			mediumorchid,palegreen,sandybrown,yellowgreen,sienna};
 
 	const static char * toString(int value)
 	{
@@ -95,16 +96,12 @@ struct Color
 				return "pink";
 			case steelblue:
 				return "steelblue";
-			case darkmagenta:
-				return "darkmagenta";
 			case darksalmon:
 				return "darksalmon";
 			case darkturquoise:
 				return "darkturquoise";
 			case dimgrey:
 				return "dimgrey";
-			case fuchsia:
-				return "fuchsia";
 			case hotpink:
 				return "hotpink";
 			case lightcoral:
@@ -113,8 +110,20 @@ struct Color
 				return "limegreen";
 			case mediumblue:
 				return "mediumblue";
-			case olive:
-				return "olive";
+			case mediumspringgreen:
+				return "mediumspringgreen";
+			case lightcyan:
+				return "lightcyan";
+			case mediumorchid:
+				return "mediumorchid";
+			case palegreen:
+				return "palegreen";
+			case sandybrown:
+				return "sandybrown";
+			case yellowgreen:
+				return "yellowgreen";
+			case sienna:
+				return "sienna";
 			default:
 				return "white";
 		}
