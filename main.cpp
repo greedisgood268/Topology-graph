@@ -10,17 +10,15 @@ void drawWithHightNode(char *name, PeerList *peerList, int type);
 
 int main(int argc, char**argv)
 {
-	if(argc == 1)	
-		return 0;////loop requeset
-	else if (argc >= 4)
+	if(argc >= 4)
 	{
 		TopoParser parser;
 		PeerList *peerList = NULL;
 
 		if( strcmp("NAT",argv[1]) == 0)
-			peerList = parser.parseFile(argv[2], true);
+			peerList = parser.parseFile(argv[2], NAT_GRAPH);
 		else if( strcmp("GROUP",argv[1]) == 0)
-			peerList = parser.parseFile(argv[2], false);
+			peerList = parser.parseFile(argv[2], NON_NAT_GRAPH);
 		else
 		{
 			cout<<"No such option exists: "<<argv[1]<<endl;

@@ -10,7 +10,8 @@ struct Color
 			darkorange,darkslateblue,firebrick,ghostwhite,indigo,lightsalmon,lightsteelblue,mediumpurple,\
 			mediumvioletred,navajowhite,paleturquoise,pink,steelblue,darksalmon,\
 			darkturquoise,dimgrey,hotpink,lightcoral,limegreen,mediumblue,mediumspringgreen,lightcyan,\
-			mediumorchid,palegreen,sandybrown,yellowgreen,sienna};
+			mediumorchid,palegreen,sandybrown,yellowgreen,sienna,olivedrab2,greenyellow,tomato4,tan1,violetred3\
+			,wheat4,rosybrown,deepskyblue};
 
 	const static char * toString(int value)
 	{
@@ -124,6 +125,22 @@ struct Color
 				return "yellowgreen";
 			case sienna:
 				return "sienna";
+			case olivedrab2:
+				return "olivedrab2";
+			case greenyellow:
+				return "greenyellow";
+			case tomato4:
+				return "tomato4";
+			case tan1:
+				return "tan1";
+			case violetred3:
+				return "violetred3";
+			case wheat4:
+				return "wheat4";
+			case rosybrown:
+				return "rosybrown";
+			case deepskyblue:
+				return "deepskyblue";
 			default:
 				return "white";
 		}

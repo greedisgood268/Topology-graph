@@ -1,0 +1,135 @@
+digraph{
+{
+node [style=filled]
+56 [fillcolor=darkolivegreen3]
+60 [fillcolor=green]
+61 [fillcolor=green]
+63 [fillcolor=green]
+64 [fillcolor=green]
+66 [fillcolor=green]
+68 [fillcolor=green]
+69 [fillcolor=green]
+70 [fillcolor=green]
+72 [fillcolor=green]
+75 [fillcolor=green]
+76 [fillcolor=green]
+77 [fillcolor=green]
+84 [fillcolor=green]
+85 [fillcolor=green]
+87 [fillcolor=green]
+90 [fillcolor=green]
+94 [fillcolor=green]
+96 [fillcolor=green]
+98 [fillcolor=green]
+100 [fillcolor=green]
+101 [fillcolor=green]
+104 [fillcolor=green]
+109 [fillcolor=green]
+112 [fillcolor=green]
+113 [fillcolor=green]
+116 [fillcolor=green]
+118 [fillcolor=green]
+119 [fillcolor=green]
+126 [fillcolor=green]
+127 [fillcolor=green]
+128 [fillcolor=green]
+129 [fillcolor=green]
+130 [fillcolor=green]
+131 [fillcolor=green]
+133 [fillcolor=green]
+134 [fillcolor=green]
+135 [fillcolor=green]
+136 [fillcolor=green]
+137 [fillcolor=green]
+138 [fillcolor=green]
+139 [fillcolor=green]
+140 [fillcolor=green]
+}
+"56" -> "127"; 
+"61" -> "96"; 
+"61" -> "85"[color = red]; 
+"61" -> "104"[color = red]; 
+"61" -> "105"[color = red]; 
+"64" -> "90"[color = red]; 
+"64" -> "104"[color = red]; 
+"64" -> "105"[color = red]; 
+"69" -> "85"[color = red]; 
+"69" -> "90"[color = red]; 
+"72" -> "90"[color = red]; 
+"75" -> "84"[color = red]; 
+"75" -> "85"[color = red]; 
+"75" -> "104"[color = red]; 
+"75" -> "105"[color = red]; 
+"75" -> "109"[color = red]; 
+"76" -> "84"[color = red]; 
+"80" -> "84"[color = red]; 
+"96" -> "113"; 
+"96" -> "118"; 
+"96" -> "119"; 
+"96" -> "122"[color = red]; 
+"101" -> "109"[color = red]; 
+"109" -> "122"[color = red]; 
+"112" -> "134"; 
+"113" -> "130"; 
+"115" -> "122"[color = red]; 
+"118" -> "129"; 
+"119" -> "112"; 
+"119" -> "128"; 
+"119" -> "131"; 
+"119" -> "109"[color = red]; 
+"127" -> "139"[color = red]; 
+"128" -> "136"[color = red]; 
+"129" -> "109"[color = red]; 
+"130" -> "135"[color = red]; 
+"131" -> "76"[color = red]; 
+"131" -> "136"[color = red]; 
+"131" -> "138"[color = red]; 
+"131" -> "139"[color = red]; 
+"133" -> "135"[color = red]; 
+"133" -> "138"[color = red]; 
+"134" -> "133"; 
+"134" -> "137"; 
+"134" -> "76"[color = red]; 
+"134" -> "135"[color = red]; 
+"134" -> "136"[color = red]; 
+"134" -> "138"[color = red]; 
+"134" -> "139"[color = red]; 
+"137" -> "140"; 
+"137" -> "76"[color = red]; 
+"999999" -> "56"; 
+"999999" -> "58"; 
+"999999" -> "60"; 
+"999999" -> "61"; 
+"999999" -> "63"; 
+"999999" -> "64"; 
+"999999" -> "66"; 
+"999999" -> "68"; 
+"999999" -> "69"; 
+"999999" -> "70"; 
+"999999" -> "72"; 
+"999999" -> "75"; 
+"999999" -> "76"; 
+"999999" -> "77"; 
+"999999" -> "80"; 
+"999999" -> "84"; 
+"999999" -> "85"; 
+"999999" -> "87"; 
+"999999" -> "90"; 
+"999999" -> "93"; 
+"999999" -> "94"; 
+"999999" -> "98"; 
+"999999" -> "100"; 
+"999999" -> "101"; 
+"999999" -> "104"; 
+"999999" -> "105"; 
+"999999" -> "106"; 
+"999999" -> "109"; 
+"999999" -> "115"; 
+"999999" -> "116"; 
+"999999" -> "122"; 
+"999999" -> "126"; 
+"999999" -> "135"; 
+"999999" -> "136"; 
+"999999" -> "138"; 
+"999999" -> "139"; 
+}
