@@ -2,7 +2,7 @@
 #include <cstdio>
 #include <stdlib.h>
 
-char TEMPORARY_FILE[] = "temporaryFile.txt";
+char TEMPORARY_FILE[] = "temporaryFile.txt"; 
 
 void GraphPrinter::printGraph(PeerList *peerList, char *outputFileName)
 {

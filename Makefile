@@ -1,4 +1,4 @@
-LIB= Drawer.o TopoParser.o  GraphPrinter.o Peer.o PeerList.o  Printer.o
+LIB= Drawer.o TopoParser.o  GraphPrinter.o Peer.o PeerList.o  Printer.o GroupList.o Group.o Grouper.o GroupPrinter.o
 
 CPPFLAGS += -g
 

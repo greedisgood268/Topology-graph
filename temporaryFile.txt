@@ -1,49 +1,6 @@
 digraph{
 {
 node [style=filled]
-56 [fillcolor=darkolivegreen3]
-60 [fillcolor=green]
-61 [fillcolor=green]
-63 [fillcolor=green]
-64 [fillcolor=green]
-66 [fillcolor=green]
-68 [fillcolor=green]
-69 [fillcolor=green]
-70 [fillcolor=green]
-72 [fillcolor=green]
-75 [fillcolor=green]
-76 [fillcolor=green]
-77 [fillcolor=green]
-84 [fillcolor=green]
-85 [fillcolor=green]
-87 [fillcolor=green]
-90 [fillcolor=green]
-94 [fillcolor=green]
-96 [fillcolor=green]
-98 [fillcolor=green]
-100 [fillcolor=green]
-101 [fillcolor=green]
-104 [fillcolor=green]
-109 [fillcolor=green]
-112 [fillcolor=green]
-113 [fillcolor=green]
-116 [fillcolor=green]
-118 [fillcolor=green]
-119 [fillcolor=green]
-126 [fillcolor=green]
-127 [fillcolor=green]
-128 [fillcolor=green]
-129 [fillcolor=green]
-130 [fillcolor=green]
-131 [fillcolor=green]
-133 [fillcolor=green]
-134 [fillcolor=green]
-135 [fillcolor=green]
-136 [fillcolor=green]
-137 [fillcolor=green]
-138 [fillcolor=green]
-139 [fillcolor=green]
-140 [fillcolor=green]
 }
 "56" -> "127"; 
 "61" -> "96"; 
@@ -132,4 +89,5 @@ node [style=filled]
 "999999" -> "136"; 
 "999999" -> "138"; 
 "999999" -> "139"; 
+subgraph "group 0"  { label="group 0";"136"; "137"; }
 }

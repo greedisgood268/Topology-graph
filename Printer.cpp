@@ -8,9 +8,7 @@
 #include "Peer.h"
 #include "Color.h"
 
-
 const int COLOR_LENGTH = 60;
-
 
 Printer::Printer()
 {
@@ -98,3 +96,4 @@ void Printer::colorNormalLine (Peer *peer, std::string &graph)
 		}
 	}
 }
+
